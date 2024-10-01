@@ -1,0 +1,30 @@
+
+@media screen and (min-width: 800px){
+  #root {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  
+  }
+  body{
+    background-image: linear-gradient(to top right,rgb(3, 23, 251), rgb(0, 195, 255));
+    background-size:cover;
+  }
+}
+@media screen and (max-width: 800px){
+  #root{
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  body{
+    background-image:linear-gradient(to top right,rgb(3, 23, 251), rgb(0, 195, 255));
+    background-size:cover;
+    
+  }
+}
